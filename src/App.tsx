@@ -49,7 +49,6 @@ const App:React.FC = () => {
         return<TodoTask key={key} task={task} completeTask={completeTask} />
       })
     }
-
     </div>
     </div>
   );
